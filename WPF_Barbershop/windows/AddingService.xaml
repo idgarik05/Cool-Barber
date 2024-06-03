@@ -1,0 +1,116 @@
+﻿<Window x:Class="WPF_Barbershop.windows.AddingService"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Barbershop.windows"
+        mc:Ignorable="d"
+        Title="Добавление услуги" Height="470" Width="410" Background="#fddb6d" Icon="/pictures/logo.png">
+
+    <Window.Resources>
+        <Style x:Key="NoBorderTextBox" TargetType="TextBox">
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="30"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Button Name="BackMain" Click="BackMain_Click" Background="SandyBrown" Foreground="White" BorderBrush="Black" BorderThickness="2" Content="Вернуться назад" FontSize="19" FontWeight="SemiBold" FontFamily="Arial" Height="30" Width="190"/>
+            </StackPanel>
+
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Image Source="/pictures/main_sceensaver.png" Height="100" Width="100"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="4">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Добавление услуги" FontSize="27" FontFamily="Arial" FontWeight="SemiBold"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="6">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center">
+                <TextBlock Text="* Название услуги: " FontSize="17" FontWeight="SemiBold" FontFamily="Arial" />
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBox x:Name="NameService"  Style="{StaticResource NoBorderTextBox}" BorderBrush="Black" FontFamily="Arial" FontSize="17" Width="150" Height="22"/>
+            </StackPanel>
+
+        </Grid>
+
+        <Grid Grid.Row="8">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center">
+                <TextBlock Text="* Тип услуги: " FontSize="17" FontWeight="SemiBold" FontFamily="Arial" />
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <ComboBox x:Name="TypeService" FontFamily="Arial" FontSize="17" Width="150" Height="22"  SelectedItem="{Binding Type_services}" DisplayMemberPath="Type_"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="10">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center">
+                <TextBlock Text=" Цена: "  FontSize="17" FontWeight="SemiBold" FontFamily="Arial" />
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBox Style="{StaticResource NoBorderTextBox}" BorderBrush="Black" FontFamily="Arial" FontSize="17" x:Name="PriceService" Width="150" Height="22"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="12">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="RegistServiceBtn" Click="RegistServiceBtn_Click" Background="SandyBrown" Foreground="White" BorderBrush="Black" BorderThickness="2" Content="Сохранить" FontSize="19" FontWeight="SemiBold" FontFamily="Arial" Height="30" Width="190"/>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>

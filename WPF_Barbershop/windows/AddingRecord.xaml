@@ -1,0 +1,219 @@
+﻿<Window x:Class="WPF_Barbershop.windows.AddingRecord"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавление записи" Height="600" Width="650" Background="#fddb6d" Icon="/pictures/logo.png">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Image Source="/pictures/main_sceensaver.png" Height="100" Width="100"/>
+                <Label/>
+                <TextBlock Text="Добавление записи" FontSize="27" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="35"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Барбер" FontSize="20" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="30"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="* Фамилия: " FontSize="15" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="20"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="* Имя: " FontSize="15" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="20"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text=" Отчество: " FontSize="15" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="20"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox x:Name="BarberSurnameBox" Width="120"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox x:Name="BarberNameBox" Width="120"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox x:Name="BarberPatronymicBox" Width="120"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Клиент" FontSize="20" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="30"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="* Фамилия: " FontSize="15" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="20"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="* Имя: " FontSize="15" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="20"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text=" Отчество: " FontSize="15" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="20"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text=" * Номер телефона: " FontSize="15" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="20"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox x:Name="ClientSurnameBox" Width="120"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox x:Name="ClientNameBox" Width="120"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox x:Name="ClientPatronymicBox" Width="120"/>
+            </StackPanel>
+
+            <StackPanel Grid.Row="2" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBox x:Name="ClientPhoneBox" Width="130"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="350"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="35"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text=" Услуги " FontSize="20" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="30" />
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ListBox x:Name="ServiceListBox" Width="300" Height="100" SelectionMode="Multiple" DisplayMemberPath="Title"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="3" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="AddServiceButton" Content="Добавить услугу" Click="AddServiceButton_Click" Background="SandyBrown" Foreground="White" BorderBrush="Black" BorderThickness="2" FontSize="15" FontWeight="SemiBold" FontFamily="Arial" Height="30" Width="140"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="5">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text=" Акция " FontSize="20" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="30" />
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text=" Дата " FontSize="20" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="30" />
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text=" Время " FontSize="20" FontFamily="Arial" FontWeight="SemiBold" TextAlignment="Center" Height="30" />
+            </StackPanel>
+
+            <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ComboBox x:Name="StockComboBox" Width="190" DisplayMemberPath="Title"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <DatePicker x:Name="DatePicker" Width="180"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ComboBox x:Name="TimeComboBox" Width="130">
+                    <ComboBox.Items>
+                        <ComboBoxItem Content="09:00"/>
+                        <ComboBoxItem Content="10:00"/>
+                        <ComboBoxItem Content="11:00"/>
+                        <ComboBoxItem Content="12:00"/>
+                        <ComboBoxItem Content="13:00"/>
+                        <ComboBoxItem Content="14:00"/>
+                        <ComboBoxItem Content="15:00"/>
+                        <ComboBoxItem Content="16:00"/>
+                        <ComboBoxItem Content="17:00"/>
+                    </ComboBox.Items>
+                </ComboBox>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="6">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Общая стоимость: "  FontSize="18" FontFamily="Arial" FontWeight="Black" TextAlignment="Center" Height="30"/>
+                <TextBlock x:Name="TotalPriceTextBlock" Text=" 0 "  FontSize="18" FontWeight="Bold" FontFamily="Arial" TextAlignment="Center" Height="30"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="7">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel  Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="SaveButton" Content="Сохранить" Click="SaveButton_Click"  Background="SandyBrown" Foreground="White" BorderBrush="Black" BorderThickness="2" FontSize="15" FontWeight="SemiBold" FontFamily="Arial" Height="30" Width="140"/>
+            </StackPanel>
+
+            <StackPanel  Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="CancelButton" Content="Отмена" Click="CancelButton_Click"  Background="SandyBrown" Foreground="White" BorderBrush="Black" BorderThickness="2" FontSize="15" FontWeight="SemiBold" FontFamily="Arial" Height="30" Width="140"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

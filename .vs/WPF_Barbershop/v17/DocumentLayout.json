@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0416\u0435\u043D\u044F\\Desktop\\WPF_Barbershop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BED99E4-9D12-488A-A193-73EAA9CCC091}|WPF_Barbershop\\WPF_Barbershop.csproj|c:\\users\\\u043D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0436\u0435\u043D\u044F\\desktop\\wpf_barbershop\\wpf_barbershop\\pages\\stocks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BED99E4-9D12-488A-A193-73EAA9CCC091}|WPF_Barbershop\\WPF_Barbershop.csproj|solutionrelative:wpf_barbershop\\pages\\stocks.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BED99E4-9D12-488A-A193-73EAA9CCC091}|WPF_Barbershop\\WPF_Barbershop.csproj|c:\\users\\\u043D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0436\u0435\u043D\u044F\\desktop\\wpf_barbershop\\wpf_barbershop\\pages\\stocks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1BED99E4-9D12-488A-A193-73EAA9CCC091}|WPF_Barbershop\\WPF_Barbershop.csproj|solutionrelative:wpf_barbershop\\pages\\stocks.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BED99E4-9D12-488A-A193-73EAA9CCC091}|WPF_Barbershop\\WPF_Barbershop.csproj|c:\\users\\\u043D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0436\u0435\u043D\u044F\\desktop\\wpf_barbershop\\wpf_barbershop\\windows\\addingbarber.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1BED99E4-9D12-488A-A193-73EAA9CCC091}|WPF_Barbershop\\WPF_Barbershop.csproj|solutionrelative:wpf_barbershop\\windows\\addingbarber.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BED99E4-9D12-488A-A193-73EAA9CCC091}|WPF_Barbershop\\WPF_Barbershop.csproj|c:\\users\\\u043D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0436\u0435\u043D\u044F\\desktop\\wpf_barbershop\\wpf_barbershop\\windows\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1BED99E4-9D12-488A-A193-73EAA9CCC091}|WPF_Barbershop\\WPF_Barbershop.csproj|solutionrelative:wpf_barbershop\\windows\\authorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BED99E4-9D12-488A-A193-73EAA9CCC091}|WPF_Barbershop\\WPF_Barbershop.csproj|c:\\users\\\u043D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0436\u0435\u043D\u044F\\desktop\\wpf_barbershop\\wpf_barbershop\\windows\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BED99E4-9D12-488A-A193-73EAA9CCC091}|WPF_Barbershop\\WPF_Barbershop.csproj|solutionrelative:wpf_barbershop\\windows\\authorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 13,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stocks.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0416\u0435\u043D\u044F\\Desktop\\WPF_Barbershop\\WPF_Barbershop\\pages\\Stocks.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Barbershop\\pages\\Stocks.xaml.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0416\u0435\u043D\u044F\\Desktop\\WPF_Barbershop\\WPF_Barbershop\\pages\\Stocks.xaml.cs",
+              "RelativeToolTip": "WPF_Barbershop\\pages\\Stocks.xaml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T21:06:52.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stocks.xaml",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0416\u0435\u043D\u044F\\Desktop\\WPF_Barbershop\\WPF_Barbershop\\pages\\Stocks.xaml",
+              "RelativeDocumentMoniker": "WPF_Barbershop\\pages\\Stocks.xaml",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0416\u0435\u043D\u044F\\Desktop\\WPF_Barbershop\\WPF_Barbershop\\pages\\Stocks.xaml",
+              "RelativeToolTip": "WPF_Barbershop\\pages\\Stocks.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-06T21:06:45.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddingBarber.xaml",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0416\u0435\u043D\u044F\\Desktop\\WPF_Barbershop\\WPF_Barbershop\\windows\\AddingBarber.xaml",
+              "RelativeDocumentMoniker": "WPF_Barbershop\\windows\\AddingBarber.xaml",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0416\u0435\u043D\u044F\\Desktop\\WPF_Barbershop\\WPF_Barbershop\\windows\\AddingBarber.xaml",
+              "RelativeToolTip": "WPF_Barbershop\\windows\\AddingBarber.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-06T20:54:31.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Authorization.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0416\u0435\u043D\u044F\\Desktop\\WPF_Barbershop\\WPF_Barbershop\\windows\\Authorization.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_Barbershop\\windows\\Authorization.xaml.cs",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0416\u0435\u043D\u044F\\Desktop\\WPF_Barbershop\\WPF_Barbershop\\windows\\Authorization.xaml.cs",
+              "RelativeToolTip": "WPF_Barbershop\\windows\\Authorization.xaml.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAwwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T17:04:48.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Authorization.xaml",
+              "DocumentMoniker": "C:\\Users\\\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0416\u0435\u043D\u044F\\Desktop\\WPF_Barbershop\\WPF_Barbershop\\windows\\Authorization.xaml",
+              "RelativeDocumentMoniker": "WPF_Barbershop\\windows\\Authorization.xaml",
+              "ToolTip": "C:\\Users\\\u041D\u0430\u0442\u0430\u043B\u044C\u044F \u0438 \u0416\u0435\u043D\u044F\\Desktop\\WPF_Barbershop\\WPF_Barbershop\\windows\\Authorization.xaml",
+              "RelativeToolTip": "WPF_Barbershop\\windows\\Authorization.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-06T16:57:35.635Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 13,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 13,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+﻿<Window x:Class="WPF_Barbershop.windows.Main"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Barbershop.windows"
+        mc:Ignorable="d"
+        WindowState="Maximized"
+        Title="Главное окно" Height="550" Width="800" Icon="/pictures/logo.png">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Background="#ffa812">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Source="/pictures/logo.png" Height="65" Width="65"/>
+                </StackPanel>
+
+                <StackPanel  Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="Барбершоп" FontSize="21" FontFamily="Arial" FontStyle="Italic" FontWeight="SemiBold"/>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="RecordBtn" Click="RecordBtn_Click" Background="SandyBrown" Foreground="White" BorderBrush="Black" BorderThickness="2" Height="35" Width="170">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Image Height="35" Width="30" Source="/pictures/Record.png"/>
+                            <TextBlock Text="Записи" FontSize="25" FontFamily="Arial" FontWeight="Bold" FontStyle="Italic" TextAlignment="Center" Width="130"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="BarberBtn" Click="BarberBtn_Click" Background="SandyBrown" Foreground="White" BorderBrush="Black" BorderThickness="2" Height="35" Width="170">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Image Height="35" Width="30" Source="/pictures/Barber.png"/>
+                            <TextBlock Text="Барберы" FontSize="25" FontFamily="Arial" FontWeight="Bold" FontStyle="Italic" TextAlignment="Center" Width="130"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="4">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="ClientBtn" Click="ClientBtn_Click" Background="SandyBrown" Foreground="White" BorderBrush="Black" BorderThickness="2" Height="35" Width="170">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Image Height="35" Width="42" Source="/pictures/pers_icon.png"/>
+                            <TextBlock Text="Клиенты" FontSize="25" FontFamily="Arial" FontWeight="Bold" FontStyle="Italic" TextAlignment="Center" Width="130"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="5">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="ServiceBtn" Click="ServiceBtn_Click" Background="SandyBrown" Foreground="White" BorderBrush="Black" BorderThickness="2" Height="35" Width="170">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Image Height="35" Width="30" Source="/pictures/service.png"/>
+                            <TextBlock Text="Услуги" FontSize="25" FontFamily="Arial" FontWeight="Bold" FontStyle="Italic" TextAlignment="Center" Width="130"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+            <Grid Grid.Row="6">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button x:Name="StocksBtn" Click="StocksBtn_Click" Background="SandyBrown" Foreground="White" BorderBrush="Black" BorderThickness="2" Height="35" Width="170">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Image Height="35" Width="30" Source="/pictures/sale.png"/>
+                            <TextBlock Text="Акции" FontSize="25" FontFamily="Arial" FontWeight="Bold" FontStyle="Italic" TextAlignment="Center" Width="130"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+        </Grid>
+        <Grid Grid.Column="1" Background="#fddb6d">
+            <StackPanel>
+                <Frame x:Name="Frame" NavigationUIVisibility="Hidden"/>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Window>

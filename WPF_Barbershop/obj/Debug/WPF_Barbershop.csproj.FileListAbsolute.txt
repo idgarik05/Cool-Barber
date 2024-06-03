@@ -1,0 +1,151 @@
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\WPF_Barbershop.exe.config
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\WPF_Barbershop.exe
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\WPF_Barbershop.pdb
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.dll
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.xml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.csproj.AssemblyReference.cache
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Authorization.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\App.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop_Content.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop_MarkupCompile.cache
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop_MarkupCompile.lref
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Authorization.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.g.resources
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.Properties.Resources.resources
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.csproj.GenerateResource.cache
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.csproj.CoreCompileInputs.cache
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barb.2B7C6D1D.Up2Date
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.exe
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.pdb
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Main.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Main.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\RecordBarber.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\RecordBarber.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Barbers.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Records.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Barbers.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Records.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Clients.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Services.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Stocks.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Clients.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Services.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Stocks.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingRecord.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingRecord.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingBarber.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingBarber.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingClient.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingClient.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingService.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingService.baml
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingStock.g.cs
+C:\Users\Наталья и Женя\source\repos\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingStock.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\WPF_Barbershop.exe.config
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\WPF_Barbershop.exe
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\WPF_Barbershop.pdb
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.dll
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.xml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.csproj.AssemblyReference.cache
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Barbers.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Clients.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Records.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Services.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Stocks.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingBarber.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingClient.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingRecord.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingService.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingStock.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Authorization.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Main.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\RecordBarber.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\App.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop_Content.g.cs
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop_MarkupCompile.cache
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop_MarkupCompile.lref
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Barbers.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Clients.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Records.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Services.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Stocks.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingBarber.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingClient.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingRecord.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingService.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingStock.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Authorization.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Main.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\RecordBarber.baml
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.g.resources
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.Properties.Resources.resources
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.csproj.GenerateResource.cache
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.csproj.CoreCompileInputs.cache
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barb.2B7C6D1D.Up2Date
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.exe
+C:\Users\Наталья и Женя\Desktop\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.pdb
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\WPF_Barbershop.exe.config
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\WPF_Barbershop.exe
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\WPF_Barbershop.pdb
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.dll
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.xml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.csproj.AssemblyReference.cache
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.csproj.SuggestedBindingRedirects.cache
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingRecord.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Barbers.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Clients.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Records.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Services.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Stocks.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingBarber.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingClient.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingRecord.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingService.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingStock.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Authorization.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Main.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\RecordBarber.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\App.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop_Content.g.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop_MarkupCompile.cache
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop_MarkupCompile.lref
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Barbers.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Clients.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Records.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Services.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\pages\Stocks.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingBarber.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingClient.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingService.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\AddingStock.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Authorization.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\Main.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\windows\RecordBarber.baml
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.g.resources
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.Properties.Resources.resources
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.csproj.GenerateResource.cache
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.csproj.CoreCompileInputs.cache
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.csproj.CopyComplete
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.exe
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\WPF_Barbershop.pdb

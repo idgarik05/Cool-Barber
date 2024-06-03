@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_BarbershopModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Accounts">
+    <Key>
+      <PropertyRef Name="ID_Account" />
+    </Key>
+    <Property Name="ID_Account" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Employee" Type="Int32" />
+    <Property Name="Login_" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password_" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK_Account_Employee" FromRole="Accounts" ToRole="Employees" />
+  </EntityType>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="ID_Client" />
+    </Key>
+    <Property Name="ID_Client" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name_" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone_number" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Records" Relationship="Self.FK_Record_Client" FromRole="Clients" ToRole="Records" />
+  </EntityType>
+  <EntityType Name="Employees">
+    <Key>
+      <PropertyRef Name="ID_Employee" />
+    </Key>
+    <Property Name="ID_Employee" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Position" Type="Int32" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name_" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone_number" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Accounts" Relationship="Self.FK_Account_Employee" FromRole="Employees" ToRole="Accounts" />
+    <NavigationProperty Name="Positions" Relationship="Self.FK_Position_Employee" FromRole="Employees" ToRole="Positions" />
+    <NavigationProperty Name="Records" Relationship="Self.FK_Record_Employee" FromRole="Employees" ToRole="Records" />
+  </EntityType>
+  <EntityType Name="Positions">
+    <Key>
+      <PropertyRef Name="ID_Position" />
+    </Key>
+    <Property Name="ID_Position" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Position" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK_Position_Employee" FromRole="Positions" ToRole="Employees" />
+  </EntityType>
+  <EntityType Name="Records">
+    <Key>
+      <PropertyRef Name="ID_Record" />
+    </Key>
+    <Property Name="ID_Record" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Employee" Type="Int32" Nullable="false" />
+    <Property Name="ID_Client" Type="Int32" Nullable="false" />
+    <Property Name="Date_" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Time_" Type="Time" Nullable="false" Precision="7" />
+    <NavigationProperty Name="Clients" Relationship="Self.FK_Record_Client" FromRole="Records" ToRole="Clients" />
+    <NavigationProperty Name="Employees" Relationship="Self.FK_Record_Employee" FromRole="Records" ToRole="Employees" />
+    <NavigationProperty Name="Service_records" Relationship="Self.FK_Ser_Rec_Record" FromRole="Records" ToRole="Service_records" />
+  </EntityType>
+  <EntityType Name="Service_records">
+    <Key>
+      <PropertyRef Name="ID_Service_record" />
+    </Key>
+    <Property Name="ID_Service_record" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Record" Type="Int32" Nullable="false" />
+    <Property Name="ID_Service" Type="Int32" Nullable="false" />
+    <Property Name="ID_Stock" Type="Int32" />
+    <Property Name="Cost" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Records" Relationship="Self.FK_Ser_Rec_Record" FromRole="Service_records" ToRole="Records" />
+    <NavigationProperty Name="Services_" Relationship="Self.FK_Ser_Rec_Service" FromRole="Service_records" ToRole="Services_" />
+    <NavigationProperty Name="Stocks" Relationship="Self.FK_Services_Stock" FromRole="Service_records" ToRole="Stocks" />
+  </EntityType>
+  <EntityType Name="Services_">
+    <Key>
+      <PropertyRef Name="ID_Service" />
+    </Key>
+    <Property Name="ID_Service" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_Type" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="60" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Double" Nullable="false" />
+    <NavigationProperty Name="Service_records" Relationship="Self.FK_Ser_Rec_Service" FromRole="Services_" ToRole="Service_records" />
+    <NavigationProperty Name="Type_services" Relationship="Self.FK_Services_Type" FromRole="Services_" ToRole="Type_services" />
+  </EntityType>
+  <EntityType Name="Stocks">
+    <Key>
+      <PropertyRef Name="ID_Stock" />
+    </Key>
+    <Property Name="ID_Stock" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="70" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Discount_size" Type="Double" />
+    <Property Name="Start_date_" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="End_date_" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Service_records" Relationship="Self.FK_Services_Stock" FromRole="Stocks" ToRole="Service_records" />
+  </EntityType>
+  <EntityType Name="Type_services">
+    <Key>
+      <PropertyRef Name="ID_Type" />
+    </Key>
+    <Property Name="ID_Type" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Type_" Type="String" MaxLength="35" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Services_" Relationship="Self.FK_Services_Type" FromRole="Type_services" ToRole="Services_" />
+  </EntityType>
+  <Association Name="FK_Account_Employee">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="0..1" />
+    <End Role="Accounts" Type="Self.Accounts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="ID_Employee" />
+      </Principal>
+      <Dependent Role="Accounts">
+        <PropertyRef Name="ID_Employee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Record_Client">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="1" />
+    <End Role="Records" Type="Self.Records" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="ID_Client" />
+      </Principal>
+      <Dependent Role="Records">
+        <PropertyRef Name="ID_Client" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Position_Employee">
+    <End Role="Positions" Type="Self.Positions" Multiplicity="1" />
+    <End Role="Employees" Type="Self.Employees" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Positions">
+        <PropertyRef Name="ID_Position" />
+      </Principal>
+      <Dependent Role="Employees">
+        <PropertyRef Name="ID_Position" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Record_Employee">
+    <End Role="Employees" Type="Self.Employees" Multiplicity="1" />
+    <End Role="Records" Type="Self.Records" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employees">
+        <PropertyRef Name="ID_Employee" />
+      </Principal>
+      <Dependent Role="Records">
+        <PropertyRef Name="ID_Employee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ser_Rec_Record">
+    <End Role="Records" Type="Self.Records" Multiplicity="1" />
+    <End Role="Service_records" Type="Self.Service_records" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Records">
+        <PropertyRef Name="ID_Record" />
+      </Principal>
+      <Dependent Role="Service_records">
+        <PropertyRef Name="ID_Record" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Ser_Rec_Service">
+    <End Role="Services_" Type="Self.Services_" Multiplicity="1" />
+    <End Role="Service_records" Type="Self.Service_records" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Services_">
+        <PropertyRef Name="ID_Service" />
+      </Principal>
+      <Dependent Role="Service_records">
+        <PropertyRef Name="ID_Service" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Services_Stock">
+    <End Role="Stocks" Type="Self.Stocks" Multiplicity="0..1" />
+    <End Role="Service_records" Type="Self.Service_records" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stocks">
+        <PropertyRef Name="ID_Stock" />
+      </Principal>
+      <Dependent Role="Service_records">
+        <PropertyRef Name="ID_Stock" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Services_Type">
+    <End Role="Type_services" Type="Self.Type_services" Multiplicity="1" />
+    <End Role="Services_" Type="Self.Services_" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Type_services">
+        <PropertyRef Name="ID_Type" />
+      </Principal>
+      <Dependent Role="Services_">
+        <PropertyRef Name="ID_Type" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DB_BarbershopEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="Self.Accounts" />
+    <EntitySet Name="Clients" EntityType="Self.Clients" />
+    <EntitySet Name="Employees" EntityType="Self.Employees" />
+    <EntitySet Name="Positions" EntityType="Self.Positions" />
+    <EntitySet Name="Records" EntityType="Self.Records" />
+    <EntitySet Name="Service_records" EntityType="Self.Service_records" />
+    <EntitySet Name="Services_" EntityType="Self.Services_" />
+    <EntitySet Name="Stocks" EntityType="Self.Stocks" />
+    <EntitySet Name="Type_services" EntityType="Self.Type_services" />
+    <AssociationSet Name="FK_Account_Employee" Association="Self.FK_Account_Employee">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Accounts" EntitySet="Accounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Record_Client" Association="Self.FK_Record_Client">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="Records" EntitySet="Records" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Position_Employee" Association="Self.FK_Position_Employee">
+      <End Role="Positions" EntitySet="Positions" />
+      <End Role="Employees" EntitySet="Employees" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Record_Employee" Association="Self.FK_Record_Employee">
+      <End Role="Employees" EntitySet="Employees" />
+      <End Role="Records" EntitySet="Records" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ser_Rec_Record" Association="Self.FK_Ser_Rec_Record">
+      <End Role="Records" EntitySet="Records" />
+      <End Role="Service_records" EntitySet="Service_records" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Ser_Rec_Service" Association="Self.FK_Ser_Rec_Service">
+      <End Role="Services_" EntitySet="Services_" />
+      <End Role="Service_records" EntitySet="Service_records" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Services_Stock" Association="Self.FK_Services_Stock">
+      <End Role="Stocks" EntitySet="Stocks" />
+      <End Role="Service_records" EntitySet="Service_records" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Services_Type" Association="Self.FK_Services_Type">
+      <End Role="Type_services" EntitySet="Type_services" />
+      <End Role="Services_" EntitySet="Services_" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

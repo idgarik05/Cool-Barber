@@ -1,0 +1,63 @@
+﻿<Window x:Class="WPF_Barbershop.windows.RecordBarber"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Barbershop.windows"
+        mc:Ignorable="d"
+        Title="Записи" Height="450" Width="450" Icon="/pictures/logo.png" Background="#fddb6d">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="180"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Image Source="/pictures/logo.png" Height="100" Width="100"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Image Source="/pictures/Barber.png" Height="35" Width="35"/>
+                <Label x:Name="Barber_name" Height="25" FontSize="15" FontFamily="Arial" Width="auto"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Записи"  FontSize="21" FontFamily="Arial" FontWeight="SemiBold"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="3">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Выберите дату:" VerticalAlignment="Center" FontSize="15" FontFamily="Arial" FontWeight="SemiBold"/>
+                <Label/>
+                <DatePicker x:Name="DateFilter" SelectedDateChanged="DateFilter_SelectedDateChanged" Width="130"/>
+                <Label/>
+                <Button x:Name="ClearFilterBtn" Content="Очистить" Click="ClearFilterBtn_Click" Background="SandyBrown" FontFamily="Arial" Width="80" FontSize="14" Foreground="White" BorderBrush="Black" BorderThickness="2"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="4">
+            <DataGrid x:Name="DG_RecordsBarber" Width="400" FontFamily="Arial" FontSize="14" FontWeight="Bold" ColumnWidth="*" RowHeight="30" IsReadOnly="True" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Клиент" Binding="{Binding Surname}" />
+                    <DataGridTextColumn Header="Дата" Binding="{Binding Date_, StringFormat=\{0:dd.MM.yyyy\}}"/>
+                    <DataGridTextColumn Header="Время" Binding="{Binding Time_}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        
+    </Grid>
+</Window>

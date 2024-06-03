@@ -1,0 +1,20 @@
+﻿WPF_Barbershop
+
+
+winexe
+C#
+.cs
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\obj\Debug\
+WPF_Barbershop
+none
+false
+DEBUG;TRACE
+C:\Users\edgar\OneDrive\Рабочий стол\WPF_Barbershop\WPF_Barbershop\App.xaml
+13-1130348247
+2292532177
+31-1973611017
+19155860487
+pages\Barbers.xaml;pages\Clients.xaml;pages\Records.xaml;pages\Services.xaml;pages\Stocks.xaml;windows\AddingBarber.xaml;windows\AddingClient.xaml;windows\AddingRecord.xaml;windows\AddingService.xaml;windows\AddingStock.xaml;windows\Authorization.xaml;windows\Main.xaml;windows\RecordBarber.xaml;
+
+False
+
